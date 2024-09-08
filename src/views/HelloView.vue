@@ -5,7 +5,7 @@
   <p>Find an affordable job at<br>Workiks</p>
 
   <button class="go"><RouterLink style="text-decoration: none; color: inherit;" to="/home"><h2>Go Workiks</h2></RouterLink></button>
-</center>    
+</center> 
 </template>
 
 <style scoped>
@@ -23,7 +23,7 @@ button {
   border-radius: 20%;
   width: 350px;
   height: 350px;
-  margin-top: 30px;
+  margin-top: 50px;
   }
   
   h1 {
@@ -41,5 +41,29 @@ button {
   h2 {
   color: white;
   font-family: Roboto;
+  }
+
+  @media screen and (min-width: 355px) and (max-width: 380px) {
+    .hello {
+      width: 300px;
+      height: 300px;
+      margin-top: 30px;
+    }
+    button {
+      width: 300px;
+      margin-top: 120px;
+    }
+  }
+
+  @media screen and (min-width: 381px) and (max-width: 450px) {
+    .hello {
+      width: 350px;
+      height: 350px;
+      margin-top: 50px;
+    }
+    button {
+      width: 400px;
+      margin-top: 150px;
+    }
   }
 </style>
