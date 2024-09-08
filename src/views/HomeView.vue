@@ -15,7 +15,7 @@
   <p style="color: #b1b1b1; font-family: Roboto; margin-left: 15px;">Description: Need help writing Script code for one project</p>
   <p style="color: #b1b1b1; font-family: Roboto; margin-left: 15px;">Type: Verif</p>
   <a href="https://t.me/stttnsik">
-  <button style="margin-left: 15px; background-color: #747474; border: none; border-radius: 15px; color: White; cursor: pointer">In Detail</button>
+  <button style="margin-left: 15px; background-color: #747474; border: none; border-radius: 15px; color: White; cursor: pointer; width: 30px; height:30px">In Detail</button>
   </a>
 </div>
 </template>
