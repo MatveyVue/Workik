@@ -15,7 +15,7 @@
   <p style="color: #b1b1b1; font-family: Roboto; margin-left: 15px;">Description: Need help writing Script code for one project</p>
   <p style="color: #b1b1b1; font-family: Roboto; margin-left: 15px;">Type: Verif</p>
   <a href="https://t.me/stttnsik">
-  <button style="margin-left: 15px; background-color: #747474; border: none; border-radius: 15px; color: White; cursor: pointer">In Detail</button>
+  <button style="margin-left: 15px; background-color: #747474; border: none; border-radius: 15px; color: White; cursor: pointer; width:80px; height:20px">In Detail</button>
   </a>
 </div>
 </template>
@@ -46,6 +46,7 @@ h3 {
   background-color: #38383f;
   width: 355px;
   height: 250px;
+  margin-left: 1px;
   border: none;
   border-radius: 20px;
   color: #727272;
@@ -66,7 +67,7 @@ h3 {
   
   .line {
   background-color: #618ec2;
-  width: 30px;
+  width: 50px;
   height: 3px;
   margin-left: -6px;
   }
