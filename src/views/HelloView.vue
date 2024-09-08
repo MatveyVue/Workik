@@ -13,17 +13,17 @@ button {
   background-color: rgb(94, 124, 170);
   border: none;
   border-radius: 15px;
-  width: 400px;
+  width: 300px;
   height: 50px;
-  margin-top: 150px;
+  margin-top: 120px;
   cursor: pointer;
   }
   
   .hello {
   border-radius: 20%;
-  width: 350px;
-  height: 350px;
-  margin-top: 50px;
+  width: 300px;
+  height: 300px;
+  margin-top: 30px;
   }
   
   h1 {
