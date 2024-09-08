@@ -45,7 +45,7 @@ h3 {
   .announcement1 {
   background-color: #38383f;
   width: 355px;
-  height: 250px;
+  height: 255px;
   margin-left: 1px;
   border: none;
   border-radius: 20px;
