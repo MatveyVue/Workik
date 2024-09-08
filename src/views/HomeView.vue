@@ -60,7 +60,7 @@ h3 {
   font-family: Roboto;
   margin-top: 30px;
   margin-left: 10px;
-  width: 50px;
+  width: 30px;
   height: 20px;
   font-size: 16px;
   }
@@ -81,7 +81,7 @@ h3 {
   cursor: pointer;
   }
 
-  @media screen and (min-width: 355px) and (max-width: 375px) {
+  @media screen and (width: 375px) {
     .announcement1 {
       width: 355px;
       height: 255px;
@@ -91,6 +91,9 @@ h3 {
   @media screen and (min-width: 380px) and (max-width: 404px) {
     .announcement1 {
       width: 385px;
+    }
+    h4 {
+      margin-left: 340px;
     }
   }
 
@@ -103,6 +106,9 @@ h3 {
   @media screen and (min-width: 405px) and (max-width: 417px) {
     .announcement1 {
       width: 400px;
+    }
+    h4 {
+      margin-left: 350px; 
     }
   }
 
