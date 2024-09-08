@@ -7,6 +7,7 @@
 <button class="all"><RouterLink style="text-decoration: none; color: inherit;" to="/program">Program</RouterLink></button>
 <button style="margin-left: 30px;" class="all"><RouterLink style="text-decoration: none; color: inherit;" to="/ads">Ads</RouterLink></button>
 
+<center>
 <div class="announcement1">
   <h2>1$</h2>
   <hr>
@@ -18,6 +19,7 @@
   <button style="margin-left: 15px; background-color: #747474; border: none; border-radius: 15px; color: White; cursor: pointer">In Detail</button>
   </a>
 </div>
+</center>
 </template>
 
 <script>
@@ -46,7 +48,6 @@ h3 {
   background-color: #38383f;
   width: 355px;
   height: 250px;
-  margin-left: 1px;
   border: none;
   border-radius: 20px;
   color: #727272;
