@@ -60,7 +60,7 @@ h3 {
   font-family: Roboto;
   margin-top: 30px;
   margin-left: 10px;
-  width: 30px;
+  width: 50px;
   height: 20px;
   font-size: 16px;
   }
