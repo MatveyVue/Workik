@@ -67,7 +67,7 @@ h3 {
   
   .line {
   background-color: #618ec2;
-  width: 30px;
+  width: 50px;
   height: 3px;
   margin-left: -6px;
   }
@@ -79,5 +79,36 @@ h3 {
   border-radius: 50%;
   border: none;
   cursor: pointer;
+  }
+
+  @media screen and (min-width: 355px) and (max-width: 375px) {
+    .announcement1 {
+      width: 355px;
+      height: 255px;
+    }
+  }
+
+  @media screen and (min-width: 380px) and (max-width: 404px) {
+    .announcement1 {
+      width: 385px;
+    }
+  }
+
+  @media screen and (width: 390px) {
+    .announcement1 {
+      width: 370px;
+    }
+  }
+
+  @media screen and (min-width: 405px) and (max-width: 417px) {
+    .announcement1 {
+      width: 400px;
+    }
+  }
+
+  @media screen and (min-width: 417px) and (max-width: 440px) {
+    .announcement1 {
+      width: 410px;
+    }
   }
 </style>
