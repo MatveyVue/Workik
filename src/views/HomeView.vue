@@ -8,7 +8,7 @@
 <button style="margin-left: 30px;" class="all"><RouterLink style="text-decoration: none; color: inherit;" to="/ads">Ads</RouterLink></button>
 
 <center>
-<div class="announcement1">
+<div class="announcement1"></center>
   <h2>1$</h2>
   <hr>
   <p style="color: white; font-family: Arial; margin-left: 15px;"><b>Sinsik</b></p>
@@ -19,7 +19,6 @@
   <button style="margin-left: 15px; background-color: #747474; border: none; border-radius: 15px; color: White; cursor: pointer">In Detail</button>
   </a>
 </div>
-</center>
 </template>
 
 <script>
