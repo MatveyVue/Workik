@@ -4,7 +4,7 @@
 <button class="all"><RouterLink style="text-decoration: none; color: inherit;" to="/home">All</RouterLink></button>
 <button class="all"><RouterLink style="text-decoration: none; color: inherit;" to="/verif">Verif</RouterLink></button>
 <button class="all"><RouterLink style="text-decoration: none; color: inherit;" to="/program">Program</RouterLink></button>
-<button style="margin-left: 20px;" class="all"><b>Ads</b><div class="line"></div></button>
+<button style="margin-left: 30px;" class="all"><b>Ads</b><div class="line"></div></button>
     
     
 <center>
