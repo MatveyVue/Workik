@@ -1,10 +1,9 @@
 <template>
 <h3>Announcement:</h3>
-
 <button class="all"><b>All</b><br><div class="line"></div></button>
 <button class="all"><RouterLink style="text-decoration: none; color: inherit;" to="/verif">Verif</RouterLink></button>
 <button class="all"><RouterLink style="text-decoration: none; color: inherit;" to="/program">Program</RouterLink></button>
-<button id="Ads" style="margin-left: 40px;" class="all"><RouterLink style="text-decoration: none; color: inherit;" to="/ads">Ads</RouterLink></button>
+<button style="margin-left: 30px;" class="all"><RouterLink style="text-decoration: none; color: inherit;" to="/ads">Ads</RouterLink></button>
 
 <div class="announcement1">
 <center><div class="photo"></div></center>
