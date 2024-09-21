@@ -1,22 +1,20 @@
 <template>
 <h3>Announcement:</h3>
+<a href="https://t.me/stinsiks"><h4><img src="https://i.postimg.cc/4dvRXYh3/EBC62-B2-C-53-AB-4186-8308-2-BC512688998.png" width="45px" height="45px"></h4></a>
 
 <button class="all"><b>All</b><br><div class="line"></div></button>
 <button class="all"><RouterLink style="text-decoration: none; color: inherit;" to="/verif">Verif</RouterLink></button>
 <button class="all"><RouterLink style="text-decoration: none; color: inherit;" to="/program">Program</RouterLink></button>
-<button style="margin-left: 30px;" class="all"><RouterLink style="text-decoration: none; color: inherit;" to="/ads">Ads</RouterLink></button>
+<button id="Ads" style="margin-left: 30px;" class="all"><RouterLink style="text-decoration: none; color: inherit;" to="/ads">Ads</RouterLink></button>
+<hr>
 
 <div class="announcement1">
-  <h2>1$</h2>
-  <hr>
-  <p style="color: white; font-family: Arial; margin-left: 15px;"><b>Sinsik</b></p>
-  <p style="color: #b1b1b1; font-family: Roboto; margin-left: 15px;">Vacancy: Rrogrammist</p>
-  <p style="color: #b1b1b1; font-family: Roboto; margin-left: 15px;">Description: Need help writing Script code for one project</p>
-  <p style="color: #b1b1b1; font-family: Roboto; margin-left: 15px;">Type: Verif</p>
-  <a href="https://t.me/stttnsik">
-  <button style="margin-left: 15px; background-color: #747474; border: none; border-radius: 15px; color: White; cursor: pointer; width:80px; height:20px">In Detail</button>
-  </a>
-</div>
+<center><div class="photo"></div></center>
+<div class="profile" style="margin-top: -40px; margin-left: 20px;"><img class="imfp" src="https://i.postimg.cc/FK8K0bcd/IMG-1157.png"><p style="font-family: Roboto; color: #000000; margin-top: -25px; margin-left: 30px; font-size: 14px">Stinsik</p></div>
+<div class="price" style="margin-top:-30px; margin-left: 105px"><img class="usdt" src="https://workinnet.ru/wp-content/uploads/2021/06/tether-usdt-logo-png-1280.png"><p style="font-family: Roboto; color: #000000; margin-top: -26px; font-size: 15px; margin-left: 2px">10</p></div>
+
+<p style="color: #ffffff; font-family: Roboto; margin-left: 20px; margin-top: 8px"><b>Programm this a mini-app telegram</b></p>
+</div> 
 </template>
 
 <script>
@@ -24,6 +22,48 @@
 </script>
 
 <style scoped>
+.photo {
+  background-color: #000000;
+  width: 380px;
+  height: 200px;
+  border: none;
+  border-radius: 30px;
+  color: #727272; 
+  margin-top: 50px
+}
+
+.profile {
+  background-color: #ffffff;
+  width: 80px;
+  height: 30px;
+  margin-left: 1px;
+  border: none;
+  border-radius: 30px;
+}
+
+.imfp {
+ width: 25px;
+ height: 25px;
+ margin-left: 5px;
+ margin-top: 2px
+}
+
+.price {
+  background-color: #ffffff;
+  width: 50px;
+  height: 30px;
+  margin-left: 1px;
+  border: none;
+  border-radius: 30px;
+}
+
+.usdt {
+   width: 25px;
+   height: 25px;
+   margin-left: 20px;
+   margin-top: 3px
+}
+
 h3 {
   color: white;
   font-family: Arial;
@@ -59,7 +99,7 @@ h3 {
   font-family: Roboto;
   margin-top: 30px;
   margin-left: 10px;
-  width: 50px;
+  width: 30px;
   height: 20px;
   font-size: 16px;
   }
@@ -71,14 +111,14 @@ h3 {
   margin-left: -6px;
   }
 
-  h4 {
-  margin-left: 320px;
-  margin-top: -65px;
-  background-color: rgb(36, 36, 44);
-  border-radius: 50%;
-  border: none;
-  cursor: pointer;
-  }
+    h4 {
+      margin-left: 320px;
+      margin-top: -65px;
+      background-color: rgb(36, 36, 44);
+      border-radius: 50%;
+      border: none;
+      cursor: pointer;
+    }
 
   @media screen and (width: 375px) {
     .announcement1 {
