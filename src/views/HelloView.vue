@@ -1,6 +1,6 @@
 <template>
 <center>
-  <img class="hello" src="https://media2.giphy.com/media/JSbUaZYHSyFViDtiDW/giphy.gif?cid=9b38fe91309c4q7im6bvn94k77o5ns75ojlbdcmm6tdt76ra&ep=v1_gifs_username&rid=giphy.gif&ct=g">
+  <img class="hello" src="https://em-content.zobj.net/source/telegram/386/money-with-wings_1f4b8.webp">
   <h1>Workiks</h1>
   <p>Find an affordable job at<br>Workiks</p>
 
@@ -10,7 +10,7 @@
 
 <style scoped>
 button {
-  background-color: rgb(94, 124, 170);
+  background-color: var(--tg-theme-section-bg-color);
   border: none;
   border-radius: 15px;
   width: 400px;
@@ -50,7 +50,7 @@ button {
       margin-top: 30px;
     }
     button {
-      width: 300px;
+      width: 340px;
       margin-top: 120px;
     }
   }
