@@ -16,7 +16,12 @@ const routes = [
       path: '/verif',
       name: 'verif',
       component: () => import('../views/VerifView.vue') 
-    }
+    },
+    {
+      path: '/stins',
+      name: 'stins',
+      component: () => import('../views/StinsView.vue') 
+    },
   ];
 
   const router = createRouter({
