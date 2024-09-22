@@ -11,6 +11,7 @@
 <style scoped>
 body {
   overflow: hidden;
+  background-attachment: fixed;
 }
 
 button {
@@ -18,7 +19,7 @@ button {
   border: none;
   border-radius: 15px;
   width: 400px;
-  height: 60px;
+  height: 50px;
   margin-top: 120px;
   cursor: pointer;
   }
