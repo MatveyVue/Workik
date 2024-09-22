@@ -67,7 +67,7 @@ button {
     }
     button {
       width: 380px;
-      margin-top: 150px;
+      margin-top: 130px;
     }
   }
 </style>
