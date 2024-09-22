@@ -4,18 +4,22 @@
   <h1>Workiks</h1>
   <p>Find an affordable job at<br>Workiks</p>
 
-  <button class="go"><RouterLink style="text-decoration: none; color: inherit;" to="/home"><h2>Go Workiks</h2></RouterLink></button>
+  <button class="go"><RouterLink style="text-decoration: none; color: inherit;" to="/home"><h2><b>Go Workiks</b></h2></RouterLink></button>
 </center> 
 </template>
 
 <style scoped>
+body {
+  overflow: hidden;
+}
+
 button {
-  background-color: var(--tg-theme-section-bg-color);
+  background-color: #0388fc;
   border: none;
   border-radius: 15px;
   width: 400px;
-  height: 50px;
-  margin-top: 150px;
+  height: 60px;
+  margin-top: 120px;
   cursor: pointer;
   }
   
@@ -62,7 +66,7 @@ button {
       margin-top: 50px;
     }
     button {
-      width: 400px;
+      width: 380px;
       margin-top: 150px;
     }
   }
