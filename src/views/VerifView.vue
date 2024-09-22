@@ -1,10 +1,8 @@
 <template>
 <h3>Announcement:</h3>
     
-<button class="all"><RouterLink style="text-decoration: none; color: inherit;" to="/home">All</RouterLink></button>
-<button class="all"><b>Verif</b><div class="line"></div></button>
-<button class="all"><RouterLink style="text-decoration: none; color: inherit;" to="/program">Program</RouterLink></button>
-<button style="margin-left: 30px;" class="all"><RouterLink style="text-decoration: none; color: inherit;" to="/ads">Ads</RouterLink></button>
+<button style="background-color: #1c1c1d; border: none; margin-left: 15px;  margin-top: 20px"><RouterLink style="text-decoration: none; color: white;" to=/home><p style="font-family: Roboto; font-size: 16px">All</p></RouterLink></button>
+<button style="background-color: #1c1c1d; border: none; margin-left: 15px;  margin-top: 20px"><RouterLink style="text-decoration: none; color: white;" to=/verif><b style="font-family: Roboto; font-size: 16px">Verif</b><div class="line"></div></RouterLink></button>
         
         
 <center>
@@ -70,7 +68,6 @@ h3 {
         background-color: #618ec2;
         width: 45px;
         height: 3px;
-        margin-left: -3px;
     }
 
     h4 {
