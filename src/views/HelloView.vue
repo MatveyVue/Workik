@@ -12,6 +12,18 @@
 body {
   overflow: hidden;
   background-attachment: fixed;
+   background-size: no-repeat;
+    background-position: center;
+    background-size: cover;
+    touch-action: none;
+    display: flex;
+    max-width: 100vw;
+    flex-direction: column;
+	-ms-user-select: none; 
+	-moz-user-select: none; 
+	-webkit-user-select: none; 
+	user-select: none;
+    align-items: center;
 }
 
 button {
