@@ -1,19 +1,17 @@
 body {
   background-color: #1c1c1d;
-  flex-direction: column;
-  -ms-user-select: none; 
-  -moz-user-select: none; 
-  -webkit-user-select: none; 
-  user-select: none;
-  display: flex;
-  flex-wrap:wrap;
   background-size: no-repeat;
   background-position: center;
   background-size: cover;
   touch-action: none;
+  display: flex;
   max-width: 100vw;
   flex-direction: column;
-  align-items: center;
+	-ms-user-select: none; 
+	-moz-user-select: none; 
+	-webkit-user-select: none; 
+	user-select: none
+}
 }
 
 hr {
